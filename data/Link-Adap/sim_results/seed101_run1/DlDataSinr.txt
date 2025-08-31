@@ -1,0 +1,2 @@
+Time	CellId	RNTI	BWPId	SINR(dB)
+0.0206071	1	7	0	5.13479

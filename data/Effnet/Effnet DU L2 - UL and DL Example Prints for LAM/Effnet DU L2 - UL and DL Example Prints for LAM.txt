@@ -1,0 +1,40 @@
+# CSI decode report from L1 to L2:
+1740363206110561969 info CSI_DECODE_REPORT{slotAndFrame: sfn=385,slot=19, csiDecodeDescriptors_size: 1, [{ueIdentity: 0, RNTI: 42000, uciChannel: 0, csiBits_part1_size: 11, csiBits_part1: 10010001011, csiBits_part2_size: 0, csiBits_part2: , reliability: 1, snr_dB: 19.2695, rxPower_dB: 63.5117, timingOffset_nsec: 85, crcPass_part1_present: 0, crcPass_part2_present: 0}]}
+
+# CSI Report, MSC and RI (for DL):
+1740363206110579249 info UE(42000): CSI Update - MCS 19  RI 4  PMI 8
+
+# UL SCH decode report from L1 to L2:
+1740363206112216439 info ULSCH_DECODE_REPORT{slotAndFrame: sfn=385,slot=18, ulschDecodeDescriptors_size: 1, [{ueIdentity: 0, RNTI: 42000, crcPass: 1, transportBlockSize: 19985, transportBlockOffset: 8, timingOffset_nsec: 85, snr_dB: 19.4414, rxPower_dB: 63.4648}], ulschBuffer_size: 19993}
+
+# UL Base MCS:
+1740363206112234999 info UE(42000): ulSnrUpdate MCS: 25.9766
+
+# UL HARQ Manager information:
+1740363206112397630 info HarqManager-UL(42000): Released HARQ-process 8
+
+# UL MCS Adjustment based on base MCS and LAM:
+1740363206112398090 info UE(42000): MCS(UL): base: 25.9766 LAM: -2.14638 index: 23
+
+# HARQ decode report from L1 to L2:
+1740363206205299285 info HARQ_DECODE_REPORT{slotAndFrame: sfn=395,slot=8, harqDecodeDescriptors_size: 1, [{ueIdentity: 0, RNTI: 42000, uciChannel: 0, harqBits_size: 1, harqBits: 1, reliability: 1, snr_dB: 19.9258, rxPower_dB: 63.5273, timingOffset_nsec: 73, crcPass_present: 0}]}
+
+# DL HARQ Manager information (ACK):
+1740363206205417086 info HarqManager-DL(42000): Released HARQ-process 5
+
+# DL MCS Adjustment based on base MCS and LAM:
+1740363206205417456 info UE(42000): MCS(DL): base: 19 LAM: 8.00008 index: 27
+
+# HARQ decode report from L1 to L2:
+1740363206215530484 info HARQ_DECODE_REPORT{slotAndFrame: sfn=396,slot=8, harqDecodeDescriptors_size: 1, [{ueIdentity: 0, RNTI: 42000, uciChannel: 0, harqBits_size: 1, harqBits: 0, reliability: 1, snr_dB: 18.6406, rxPower_dB: 63.4531, timingOffset_nsec: 61, crcPass_present: 0}]}
+
+# DL HARQ Manager information (NACK):
+1740363206215936216 info HarqManager-DL(42000): Retransmission for HARQ-process 5
+
+# DL MCS Adjustment based on base MCS and LAM:
+1740363206215936696 info UE(42000): MCS(DL): base: 19 LAM: 7.99008 index: 26
+
+# DL Re-transmission and HARQ Manager information:
+1740363206215941266 info UE(42000): DL re-transmission, remaining RBs 3276, for SS#2
+1740363206215941746 info HarqManager-DL(42000): Claimed HARQ-process 5 1
+
