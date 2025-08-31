@@ -21,7 +21,7 @@ The ultimate goal is to provide foundational, data-driven components for a futur
 If you are new to this project, here is a recommended workflow to get started:
 
 1.  **Read the Thesis:** Begin by reading the main thesis draft located in `docs/Thesis_Draft.pdf`. This document provides the full context, literature review, methodology, and interpretation of the results.
-2.  **Review the Documentation:** Explore the other files in the `docs/` folder, such as presentations and supplementary papers, for a high-level overview.
+2.  **Review the Documentation:** Explore the other files in the `docs/` folder, such as presentations and other content, for a high-level overview.
 3.  **Set Up the Environments:** You will need two distinct environments: one for running the simulations (`ns-3`) and one for data analysis (`Python`). Follow the instructions in the sections below to set them both up.
 4.  **Acquire/Generate the Datasets:**
     - Run the simulation to generate the link adaptation data (see instructions below).
@@ -37,7 +37,8 @@ The repository is organized into three main folders: `docs`, `data`, and `work`.
 This directory contains all supporting documentation.
 
 - `Thesis_Draft.pdf`: The primary dissertation document.
-- `presentations/`, `related_papers/`, `intermediate_documentation/`: Additional supporting materials.
+- `presentations/`, `papers/`: Additional supporting materials.
+- `graphs` - output graphs for reference
 
 ### 📊 `data/` Folder
 
@@ -45,7 +46,6 @@ This folder is the designated location for all datasets.
 
 - `link_adaptation/`: This folder should contain the raw output logs from the 5G-LENA simulation.
 - `energy/`: This folder is for the 5G energy consumption dataset.
-  - **❗️ Important Note:** This dataset is too large to be hosted on Git. You must download it separately from Kaggle: [5G-Energy Consumption Dataset](https://www.kaggle.com/datasets/nadiatriki/5g-energy-consumption-dataset) and place the CSV file in this directory.
 - `effnet/`: Contains internal datasets from our industry partner, Effnet AB.
 
 ### 🔬 `work/` Folder
@@ -119,5 +119,3 @@ If you build upon this work, please cite the thesis:
   month  = {August}
 }
 ```
-
-Use Arrow Up and Arrow Down to select a turn, Enter to jump to it, and Escape to return to the chat.
