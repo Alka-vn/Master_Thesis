@@ -5,6 +5,13 @@
 **University:** Lulea technological University | Universite de lorraine | Leeds Beckett Uniersity
 **Supervisor:** Prof. Dr. Engeny Osipov (Luleå University of Technology, Sweden)
 
+🛠️ Technologies & Tools
+![alt text](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![alt text](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![alt text](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![alt text](https://img.shields.io/badge/ns--3-007ACC?style=for-the-badge)
+![alt text](https://img.shields.io/badge/5G--LENA-8A2BE2?style=for-the-badge)
+
 ---
 
 ## 🎯 Project Goal
@@ -15,6 +22,10 @@ This repository contains the complete work for the Master's thesis, "AI for Link
 2.  **Energy Consumption Forecasting:** Creating a high-accuracy model to forecast the energy usage of 5G base stations using a real-world operational dataset.
 
 The ultimate goal is to provide foundational, data-driven components for a future system that can co-optimize network performance and energy efficiency. This repository is structured to help future researchers understand the methodology, reproduce the results, and build upon this work.
+
+### **📈 Key Findings**
+*   **Link Adaptation:** The LSTM-based temporal model successfully learned predictive patterns from the simulated 5G channel data, achieving a **validation accuracy of 55.1%**. This significantly outperforms random (3.4%) and majority-class (33%) baselines, establishing a strong proof-of-concept for the proactive, AI-driven approach.
+*   **Energy Forecasting:** The neural network, utilizing a masked training strategy, achieved a **Mean Absolute Percentage Error (MAPE) of 5.74%** on the real-world dataset. This result is highly competitive with state-of-the-art models and confirms the high predictability of base station energy consumption.
 
 ## 🚀 A Researcher's Guide to Getting Started
 
